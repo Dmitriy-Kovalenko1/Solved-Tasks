@@ -19,13 +19,16 @@ const smash = words => words.join(' ');
 const toBinary = n => +n.toString(2)
 ```
 
-
+* Task 1
 * Formatting decimal places #0
 ```javascript
 function twoDecimalPlaces(n) {
 return Math.round(100 * n)/100;
 }
 ```
+
+* Task 2
+hello!
 
 
 
