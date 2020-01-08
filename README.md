@@ -1,6 +1,4 @@
 ## **CodeWars**
-
-
 ```javascript
 let y = -11 < 0 ? true : false;
 console.log(y);
