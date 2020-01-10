@@ -52,7 +52,23 @@ newArray.push(numbers[i]);
 return newArray;
 }
 ```
-
+* task 8
+* Remove the minimum
+```javascript
+function removeSmallest(numbers) {
+  numbers = numbers.slice(0);
+  const min = Math.min(...numbers);
+  numbers.splice(numbers.indexOf(min),1);
+  return numbers;
+}
+```
+* task 9
+* Binary Addition
+```javascript
+function addBinary(a,b) {
+return (a + b).toString(2);
+}
+```
 
 
 
