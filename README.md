@@ -83,7 +83,19 @@ function toBinary(n){
   return Number(n.toString(2));
 }
 ```
-
+* task 12
+* Lario and Muigi Pipe Problem
+```javascript
+function pipeFix(numbers){
+let a = Math.max(...numbers); 
+let b = Math.min(...numbers);
+let arr = [];
+for(i = b; i <= a; i++){
+arr.push(i);
+}
+return arr
+}
+```
 
 
 
