@@ -69,6 +69,20 @@ function addBinary(a,b) {
 return (a + b).toString(2);
 }
 ```
+* task 10
+* Convert to Binary
+```javascript
+function toBinary(n){
+  return Number(n.toString(2));
+}
+```
+* task 11
+* Convert to Binary
+```javascript
+function toBinary(n){
+  return Number(n.toString(2));
+}
+```
 
 
 
