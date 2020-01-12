@@ -96,6 +96,12 @@ arr.push(i);
 return arr
 }
 ```
+* task 13
+* Bin to Decimal
+```javascript
+const binToDec = bin => parseInt(bin, 2);
+```
+
 
 
 
