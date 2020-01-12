@@ -101,6 +101,13 @@ return arr
 ```javascript
 const binToDec = bin => parseInt(bin, 2);
 ```
+* task 14
+* Hex to Decimal
+```javascript
+function hexToDec(hexString){
+return parseInt(hexString,16);
+}
+```
 
 
 
