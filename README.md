@@ -108,6 +108,11 @@ function hexToDec(hexString){
 return parseInt(hexString,16);
 }
 ```
+* task 15
+* Is every value in the array an array?
+```javascript
+const arrCheck = value => value.every(Array.isArray);
+```
 
 
 
