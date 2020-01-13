@@ -113,6 +113,13 @@ return parseInt(hexString,16);
 ```javascript
 const arrCheck = value => value.every(Array.isArray);
 ```
+* task 16
+* Parse nice int from char problem
+```javascript
+function getAge(inputString) {
+  return parseInt(inputString.match(/\d/).join(''))
+}
+```
 
 
 
