@@ -120,6 +120,21 @@ function getAge(inputString) {
   return parseInt(inputString.match(/\d/).join(''))
 }
 ```
+* task 17
+* No zeros for heros
+```javascript
+function noBoringZeros(n) {
+  if (n === 0) return 0
+  const number = String(n)
+  let result = number
+  for (let i = 0; i < number.length; i++) {
+    if (result.endsWith('0')) {
+      result = result.substring(0, result.length - 1)
+    }
+  }
+  return Number(result)
+}
+```
 
 
 
