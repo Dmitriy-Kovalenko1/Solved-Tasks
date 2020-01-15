@@ -145,7 +145,14 @@ function removeSmallest(numbers) {
   return numbers;
 }
 ```
-
+* task 19
+* Simple Fun #74: Growing Plant
+```javascript
+function growingPlant(upSpeed, downSpeed, desiredHeight) {
+  if (upSpeed > desiredHeight) downSpeed = 0;
+  return x = Math.ceil( (desiredHeight - downSpeed) / (upSpeed - downSpeed) );
+}
+```
 
 
 
