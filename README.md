@@ -153,6 +153,13 @@ function growingPlant(upSpeed, downSpeed, desiredHeight) {
   return x = Math.ceil( (desiredHeight - downSpeed) / (upSpeed - downSpeed) );
 }
 ```
+* task 20
+* Formatting decimal places #0
+```javascript
+function twoDecimalPlaces(n) {
+return Math.round(100 * n)/100;
+}
+```
 
 
 
