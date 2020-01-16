@@ -160,6 +160,22 @@ function twoDecimalPlaces(n) {
 return Math.round(100 * n)/100;
 }
 ```
+task 21
+* Total of amount points
+```javascript
+function points(games) {
+ let count = 0;
+ for(i = 0;i < games.length; i++){
+ let arr = games[i].split(':');
+ let x = +arr[0];
+ let y = +arr[1];
+ if(x > y) count +=3;
+ else if(x === y) count +=1;
+}
+return count;
+}
+```
+
 
 
 
