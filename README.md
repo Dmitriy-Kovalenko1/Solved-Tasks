@@ -184,7 +184,12 @@ arr.sort((a, b) => b - a);
 return arr[0] - arr[arr.length - 1];
 }
 ```
-
+* task 23
+* Find Maximum and Minimum Values of a List
+```javascript
+const min = list =>list.sort((a, b) => a - b)[0];
+const max = list =>list.sort((a, b) => b - a)[0];
+```
 
 
 
