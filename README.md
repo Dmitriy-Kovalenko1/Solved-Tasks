@@ -190,6 +190,14 @@ return arr[0] - arr[arr.length - 1];
 const min = list =>list.sort((a, b) => a - b)[0];
 const max = list =>list.sort((a, b) => b - a)[0];
 ```
+* task 24
+* Sum of two lowest positive integers
+```javascript
+function sumTwoSmallestNumbers(n) {  
+n.sort((a, b) => a - b)
+return n[0] + n[1];
+}
+```
 
 
 
