@@ -198,7 +198,21 @@ n.sort((a, b) => a - b)
 return n[0] + n[1];
 }
 ```
-
+* task 25
+* Sum of Odd Cubed Numbers
+```javascript
+function cubeOdd(arr) {
+let sum = 0;                           
+for (let i = 0; i < arr.length;i++){  
+  if (arr[i] % 2 !== 0 ){
+  sum = sum + arr[i]**3;
+  } 
+ if (typeof(arr[i]) !== 'number'){ return undefined;
+ }
+}
+return sum;
+}
+```
 
 
 
