@@ -240,7 +240,18 @@ function sumArray(array){
   return sum - Math.max(...array) - Math.min(...array);
 }
 ```
-
+* task 28
+* Find the divisors!
+```javascript
+function divisors(integer) {
+  let a = [];
+  for (i=2;i<integer-1;i++) {
+    (integer % i == 0) ? a.push(i) : null
+  }
+  return a.length > 0 ? a : integer + " is prime" 
+};
+```
+* task 29
 
 
 
