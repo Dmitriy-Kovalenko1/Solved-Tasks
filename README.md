@@ -225,7 +225,21 @@ function oddOrEven(array) {
   else{return "odd";}
 }
 ```
-
+* task 27
+* Sum without highest and lowest number
+```javascript
+function sumArray(array){
+  if (array === null || array.length <= 1) return 0;
+  let sum = 0;
+  for (let i = 0; i < array.length; i++){
+    
+    if (typeof array[i] == 'object') return 0;
+    sum += array[i];
+    
+  }
+  return sum - Math.max(...array) - Math.min(...array);
+}
+```
 
 
 
