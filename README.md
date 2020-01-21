@@ -252,7 +252,18 @@ function divisors(integer) {
 };
 ```
 * task 29
-
+* Count by X
+```javascript
+function countBy(x, n) {
+  var z = []
+  for (var i = 1; i <= n; i++) {
+    z.push(x* i);
+  }
+  return z
+}
+```
+* task 30
+*
 
 
 
