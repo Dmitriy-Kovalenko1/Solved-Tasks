@@ -289,7 +289,27 @@ function pickIt(arr) {
 }
 ```
 * task 32
-* 
+* Training JS #4: Basic data types--Array
+```javascript
+function getLength(arr){
+  return arr.length;
+}
+function getFirst(arr){
+  return arr[0];
+}
+function getLast(arr){
+  return arr[arr.length-1];
+}
+function pushElement(arr){
+  arr.push(1);
+  return arr;
+}
+function popElement(arr){
+  arr.pop()
+  return arr;
+}
+```
+* task 33
 
 
 
