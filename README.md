@@ -274,8 +274,22 @@ function generateRange(min, max, step){
 }
 ```
 * task 31
+* Training JS #10: loop statement --for
+```javascript
+function pickIt(arr) {
+  let odd  = [];
+  let even = [];
+  
+  for (let i = 0; i < arr.length; i++) {
+    let num = arr[i];
+    (num % 2 === 0) ? even.push(num) : odd.push(num);
+  }
+  
+  return [odd,even];
+}
+```
+* task 32
 * 
-
 
 
 
