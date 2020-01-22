@@ -310,7 +310,20 @@ function popElement(arr){
 }
 ```
 * task 33
+* A wolf in sheep's clothing
+```javascript
+function warnTheSheep(queue) {
+if(queue[queue.length - 1] == "wolf")
+return "Pls go away and stop eating my sheep";
+for(let i =0;i < queue.length -1;i++)
+{
+if(queue[i] == "wolf")
+return  "Oi! Sheep number "+(queue.length - i - 1).toString()+"!"+" You are about to be eaten by a wolf!";
+}
 
+}
+```
+* task 34
 
 
 
