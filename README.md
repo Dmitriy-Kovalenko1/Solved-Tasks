@@ -324,7 +324,14 @@ return  "Oi! Sheep number "+(queue.length - i - 1).toString()+"!"+" You are abou
 }
 ```
 * task 34
-
+* Be Concise IV - Index of an element in an array
+```javascript
+let find = (a, e) => {
+  return a.indexOf(e) >= 0 ? a.indexOf(e) : "Not found";
+}
+```
+* task 35
+*
 
 
 
