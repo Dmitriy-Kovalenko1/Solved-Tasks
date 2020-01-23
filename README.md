@@ -343,7 +343,16 @@ function tailSwap(arr) {
 }
 ```
 * task 36
-*
+* Tail Swap
+```javascript
+function tailSwap(arr) {
+let arr0 = arr[0].split(':');
+let arr1 = arr[1].split(':');
+return [arr0[0] + ':' + arr1[1], arr1[0] + ':' + arr0[1]]
+}
+```
+* task 37
+* 
 
 
 
