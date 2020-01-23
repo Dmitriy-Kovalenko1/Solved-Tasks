@@ -331,8 +331,19 @@ let find = (a, e) => {
 }
 ```
 * task 35
+* Tail Swap
+```javascript
+function tailSwap(arr) {
+  let arr1 = arr[0].split(':');
+  let arr2 = arr[1].split(':');
+  let temp = arr1[1];
+  arr1[1] = arr2[1];
+  arr2[1] = temp;
+  return [arr1.join(':') , arr2.join(':')]
+}
+```
+* task 36
 *
-
 
 
 
