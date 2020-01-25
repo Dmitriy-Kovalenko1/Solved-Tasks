@@ -352,8 +352,14 @@ return [arr0[0] + ':' + arr1[1], arr1[0] + ':' + arr0[1]]
 }
 ```
 * task 37
+* A Needle in the Haystack
+```javascript
+function findNeedle(haystack) {
+  return "found the needle at position " + haystack.indexOf("needle");
+}
+```
+* task 38
 * 
-
 
 
 
