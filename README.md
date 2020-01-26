@@ -397,6 +397,19 @@ function betterThanAverage(classPoints, yourPoints) {
 }
 ```
 * task 42
+* Divide and Conquer
+```javascript
+function divCon(x){
+sumN = 0;
+sumS = 0;
+for (let i=0; i<x.length; i++){
+if (typeof x[i] === 'number') sumN = sumN+x[i];
+else sumS = sumS + +x[i];
+} 
+return sumN-sumS;
+}
+```
+* task 43
 * 
 
 
