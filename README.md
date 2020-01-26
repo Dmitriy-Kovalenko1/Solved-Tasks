@@ -371,6 +371,13 @@ return avg >= 90 ? 'A' :
 }
 ```
 * task 39
+* How good are you really?
+```javascript
+function betterThanAverage(classPoints, yourPoints){
+return classPoints.reduce ((a, b) => a + b) / classPoints.length < yourPoints ? true : false;
+}
+```
+* task 40
 * 
 
 
