@@ -378,6 +378,18 @@ return classPoints.reduce ((a, b) => a + b) / classPoints.length < yourPoints ? 
 }
 ```
 * task 40
+* How good are you really?
+```javascript
+function betterThanAverage(classPoints, yourPoints) {
+let sum = 0;
+for(let i = 0; i < classPoints.length; i++){
+sum = sum + classPoints[i]
+}
+let avg = sum / classPoints.length;
+return yourPoints > avg ? true : false;
+}
+```
+* task 41
 * 
 
 
