@@ -417,6 +417,17 @@ return arr.reduce((sum, element) => sum + element, 0)/arr.length;
 }
 ```
 * task 44
+* Calculate average
+```javascript
+function find_average(arr){
+  let sum = 0;
+  for (let i=0; i<arr.length; i++){
+    sum = sum + arr[i];
+  }
+   return sum/arr.length;
+}
+```
+* task 45
 * 
 
 
