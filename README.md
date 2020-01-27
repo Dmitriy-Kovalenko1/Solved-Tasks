@@ -410,6 +410,13 @@ return sumN-sumS;
 }
 ```
 * task 43
+* Calculate average
+```javascript
+function find_average(arr) {
+return arr.reduce((sum, element) => sum + element, 0)/arr.length;
+}
+```
+* task 44
 * 
 
 
