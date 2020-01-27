@@ -440,6 +440,13 @@ function find_average(array) {
 }
 ```
 * task 46
+* Be Concise IV - Index of an element in an array
+```javascript
+let find = (a, e) => {
+return a.indexOf(e) >= 0 ? a.indexOf(e) : "Not found";
+}
+```
+* task 47
 * 
 
 
