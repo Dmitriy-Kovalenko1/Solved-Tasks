@@ -428,6 +428,18 @@ function find_average(arr){
 }
 ```
 * task 45
+* Calculate average
+```javascript
+function find_average(array) {
+ let sum = 0;
+   for(let i = 0; i < array.length; i++){
+   sum = sum + array[i];
+  }
+  let avg = sum / array.length;
+  return avg;
+}
+```
+* task 46
 * 
 
 
