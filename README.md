@@ -529,7 +529,19 @@ const filterEvenLengthWords = words => words.filter(x => !(x.length % 2));
 ```
 * task 54
 * Find how many times
-
+```javascript
+function countWins(winnerList, country) {
+  let wins = 0;
+  for (let i = 0; i < winnerList.length; i++) {
+    if (winnerList[i].country === country){
+      wins += 1;
+    }
+  }
+  return wins;
+}
+```
+* task 55
+* 
 
 
 
