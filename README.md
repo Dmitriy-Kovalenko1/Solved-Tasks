@@ -523,6 +523,11 @@ function filterEvenLengthWords(words) {
 }
 ```
 * task 53
+* filterEvenLengthWords
+```javascript
+const filterEvenLengthWords = words => words.filter(x => !(x.length % 2));
+```
+* task 54
 * 
 
 
