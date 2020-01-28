@@ -459,6 +459,29 @@ return "Oi! Sheep number "+(queue.length - i - 1).toString()+"!"+" You are about
 }
 ```
 * task 48
+* Training JS #4: Basic data types--Array
+```javascript
+function getLength(arr){
+  return arr.length;
+}
+function getFirst(arr){
+  //return the first element of arr
+  return arr[0];
+}
+function getLast(arr){
+  //return the last element of arr
+  return arr[arr.length - 1];
+}
+function pushElement(arr){
+  arr.push(1); 
+  return arr;
+}
+function popElement(arr){
+  arr.pop()
+  return arr;
+}
+```
+* task 49
 * 
 
 
