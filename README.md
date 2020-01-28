@@ -482,6 +482,17 @@ function popElement(arr){
 }
 ```
 * task 49
+* Powers of 2
+```javascript
+function powersOfTwo(n){
+ let arr = [];
+for(let i = 0; i <= n; i++){
+ arr.push(Math.pow(2, i));
+ }
+return arr;
+}
+```
+* task 50
 * 
 
 
