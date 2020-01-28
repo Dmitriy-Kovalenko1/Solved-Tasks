@@ -493,7 +493,12 @@ return arr;
 }
 ```
 * task 50
-* 
+* Array.diff
+```javascript
+function array_diff (a, b){
+  return a.filter(aa => (!b.includes(aa)))
+}
+```
 
 
 
