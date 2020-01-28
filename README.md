@@ -528,20 +528,8 @@ function filterEvenLengthWords(words) {
 const filterEvenLengthWords = words => words.filter(x => !(x.length % 2));
 ```
 * task 54
-* Find how many times did a team from a given country win the Champions League?
-```javascript
-function countWins(winnerList, country) {
-  var wins = 0;
-  for (var i = 0; i < winnerList.length; i++) {
-    if (winnerList[i].country === country){
-      wins += 1;
-    }
-  }
-  return wins;
-}
-```
-* task 55
-* 
+* Find how many times
+
 
 
 
