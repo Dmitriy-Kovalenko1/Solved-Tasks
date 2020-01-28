@@ -516,6 +516,13 @@ function array_diff(a, b) {
 }
 ```
 * task 52
+* filterEvenLengthWords
+```javascript
+function filterEvenLengthWords(words) {
+  return words.filter(s=>s.length%2===0)
+}
+```
+* task 53
 * 
 
 
