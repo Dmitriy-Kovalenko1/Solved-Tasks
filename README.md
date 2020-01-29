@@ -556,6 +556,20 @@ return a;
 }
 ```
 * task 57
+* Train to remove duplicates from an array with filter()
+```javascript
+function unique(arr){
+return arr.filter((x,y) => y === arr.index.Of(x));
+}
+```
+* task 58 
+* Train to remove duplicates from an array with filter()
+```javascript
+function unique(arr) {
+  return arr.filter((x, i) => arr.indexOf(x) === i);
+}
+```
+* task 59
 * 
 
 
