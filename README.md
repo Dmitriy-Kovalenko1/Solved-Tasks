@@ -548,6 +548,14 @@ function duplicates(a) {
 }
 ```
 * task 56
+* Find Duplicates
+```javascript
+function duplicates(arr) {
+let a = arr.filter((el, i) => i === arr.indexOf(el) && i !== arr.lastIndexOf(el)); 
+return a;
+}
+```
+* task 57
 * 
 
 
