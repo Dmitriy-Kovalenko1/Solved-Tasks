@@ -571,6 +571,18 @@ function unique(arr) {
 ```
 * task 59
 * 
+```javascript
+function findOdd(arr) {
+  return arr.find((item, index) => arr.filter(el => el == item).length % 2)
+}
+```
+* task 60
+* String Templates - Bug Fixing #5
+```javascript
+const buildString = (...v) => `I like ${v.join(', ')}!`
+```
+* task 61
+* 
 
 
 
