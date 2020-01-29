@@ -541,6 +541,13 @@ function countWins(winnerList, country) {
 }
 ```
 * task 55
+* Find Duplicates
+```javascript
+function duplicates(a) {
+  return a.filter((x, i) => a.indexOf(x) == i && a.indexOf(x) != a.lastIndexOf(x));
+}
+```
+* task 56
 * 
 
 
