@@ -607,6 +607,13 @@ function printArray(array){
 const printArray=array=>array.join();
 ```
 * task 64
+* Printing Array elements with Comma delimiters
+```javascript
+function printArray(array){
+  return array.toString();
+}
+```
+* task 65
 * 
 
 
