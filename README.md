@@ -625,6 +625,19 @@ function toCsvText(array) {
 }
 ```
 * task 66
+* Unfinished Loop - Bug Fixing #1
+```javascript
+function createArray(number){
+  var newArray = [];
+  
+  for(var counter = 1; counter <= number; counter++){
+    newArray.push(counter);
+  }
+  
+  return newArray;
+}
+```
+* task 67
 * 
 
 
