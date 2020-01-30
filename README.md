@@ -614,6 +614,17 @@ function printArray(array){
 }
 ```
 * task 65
+* CSV representation of array
+```javascript
+function toCsvText(array) {
+  let arr =[];
+  for (i = 0; i < array.length; i++) {
+    arr[i] = array[i].join(',');
+  }
+  return arr.join('\n');
+}
+```
+* task 66
 * 
 
 
