@@ -595,6 +595,13 @@ function createArray(number){
 }
 ```
 * task 62
+* Printing Array elements with Comma delimiters
+```javascript
+function printArray(array){
+  return array.join();
+}
+```
+* task 63
 * 
 
 
