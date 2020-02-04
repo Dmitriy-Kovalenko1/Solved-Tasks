@@ -716,6 +716,13 @@ return Math.round (n*100)/100 ;
 }
 ```
 * task 75
+* Enumerable Magic #1 - True for All?
+```javascript
+function all( arr, fun ){
+  return arr.every(fun)
+}
+```
+* task 76
 * 
 
 
