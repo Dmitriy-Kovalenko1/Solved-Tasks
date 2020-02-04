@@ -777,6 +777,13 @@ function getSum(a, b){ 
 }
 ```
 * task 80
+* No zeros for heros
+```javascript
+function noBoringZeros(n) { 
+ let str = n + '';  
+ return +str.replace(/0+$/, '') }
+```
+* task 81
 * 
 
 
