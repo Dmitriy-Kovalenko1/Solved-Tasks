@@ -708,6 +708,14 @@ function twoDecimalPlaces(n) {
 }
 ```
 * task 74
+* Formatting decimal places #0
+```javascript
+function twoDecimalPlaces(n) {
+ (n.toFixed(2));
+return Math.round (n*100)/100 ;
+}
+```
+* task 75
 * 
 
 
