@@ -689,6 +689,18 @@ function toCsvText(array) {
 }
 ```
 * task 72
+* CSV representation of array
+```javascript
+function toCsvText(arr) {
+   let res = '';
+   for (let i = 0; i < arr.length; i++){
+    if (i < arr.length -1) res = res + arr[i].join() + '\n';
+     else res = res + arr[i].join() ;
+    }
+  return res;
+} 
+```
+* task 73
 * 
 
 
