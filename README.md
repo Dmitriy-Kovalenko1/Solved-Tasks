@@ -659,6 +659,17 @@ console.log('Hello World!');
 }
 ```
 * task 69
+* Count by X
+```javascript
+function countBy(x, n) {
+  let z = [];
+  for(let i = 1; i <=n; i++){
+  z.push(x * i);
+  }
+  return z;
+}
+```
+* task 70
 * 
 
 
