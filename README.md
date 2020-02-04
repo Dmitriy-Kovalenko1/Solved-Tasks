@@ -670,6 +670,14 @@ function countBy(x, n) {
 }
 ```
 * task 70
+* CSV representation of array
+```javascript
+function toCsvText(array) {
+  array.forEach((item) => item.join(","));
+  return array.join("\n");
+}
+```
+* task 71
 * 
 
 
