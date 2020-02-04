@@ -701,6 +701,13 @@ function toCsvText(arr) {
 } 
 ```
 * task 73
+* Formatting decimal places #0
+```javascript
+function twoDecimalPlaces(n) {
+  return +n.toFixed(2);
+}
+```
+* task 74
 * 
 
 
