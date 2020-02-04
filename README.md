@@ -723,6 +723,18 @@ function all( arr, fun ){
 }
 ```
 * task 76
+* Enumerable Magic #1 - True for All?
+```javascript
+function all( arr, fun ){
+ for(i=0;i<arr.length;i++){
+ if(fun(arr[i]) !== true){
+ return false;
+ }
+ }
+ return true;
+};
+```
+* task 77
 * 
 
 
