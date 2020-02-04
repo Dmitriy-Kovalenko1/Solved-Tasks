@@ -649,6 +649,16 @@ return arr;
 }
 ```
 * task 68
+* Classic Hello World
+```javascript
+// Print "Hello World!" to the screen
+class Solution{
+static main(arr){
+console.log('Hello World!');
+}
+}
+```
+* task 69
 * 
 
 
