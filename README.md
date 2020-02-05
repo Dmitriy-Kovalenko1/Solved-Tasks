@@ -813,6 +813,21 @@ return res
 }
 ```
 * task 83
+* Coding Meetup #5 - Higher-Order Functions Series - Prepare the count of languages
+```javascript
+function countLanguages(list) {
+let answer = {};
+for(let i = 0; i < list.length; i++){
+if(answer[list[i].language]){
+answer[list[i].language]++;
+} else {
+answer[list[i].language] = 1;
+}
+} 
+return answer
+}
+```
+* task 84
 * 
 
 
