@@ -800,6 +800,19 @@ function oddOneOut(str) {
 }
 ```
 * task 82
+* Numbers to Objects
+```javascript
+function numObj(s){
+let res = [];
+for(let i = 0; i < s.length; i++){
+let obj = {};
+obj[s[i]] = String.fromCharCode(s[i]);
+res.push(obj);
+}
+return res
+}
+```
+* task 83
 * 
 
 
