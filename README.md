@@ -784,6 +784,22 @@ function noBoringZeros(n) { 
  return +str.replace(/0+$/, '') }
 ```
 * task 81
+* What will be the odd one out?
+```javascript
+function oddOneOut(str) {
+    var s = "", len = str.length;
+    for (let i = 0; i < str.length; i++){
+        let k = str.charAt(i);
+        if (s.indexOf(k) === -1){
+            s += k; 
+        }else {
+            s = s.replace(k,"");
+        }
+    }
+    return s.split('');
+}
+```
+* task 82
 * 
 
 
