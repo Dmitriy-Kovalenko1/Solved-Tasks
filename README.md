@@ -856,6 +856,19 @@ function hoopCount (n) {
 }
 ```
 * task 87
+* Arithmetic progression
+```javascript
+const arithmeticSequenceElements = (a, r, n) => {
+  let count = a
+  let sequence = [a]
+  for (let i = 1; i < n; i++) {
+    count += r
+    sequence.push(count)
+  }
+  return sequence.join(', ')
+}
+```
+* task 88
 * 
 
 
