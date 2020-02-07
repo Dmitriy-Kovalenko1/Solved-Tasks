@@ -869,6 +869,11 @@ const arithmeticSequenceElements = (a, r, n) => {
 }
 ```
 * task 88
+* Split Strings
+```javascript
+const solution = str => `${str}_`.match(/../g)
+```
+* task 89
 * 
 
 
