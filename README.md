@@ -874,6 +874,22 @@ const arithmeticSequenceElements = (a, r, n) => {
 const solution = str => `${str}_`.match(/../g)
 ```
 * task 89
+* Find the odd int
+```javascript
+function findOdd(array) {
+  for (let i = 0; i < array.length; i++) {
+    const element = array[i]
+    let counter = 0
+
+    for (let j = 0; j < array.length; j++) {
+      if (element === array[j]) counter++
+    }
+
+    if (counter % 2 !== 0) return element
+  }
+}
+```
+* task 90
 * 
 
 
