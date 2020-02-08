@@ -890,6 +890,13 @@ function findOdd(array) {
 }
 ```
 * task 90
+* Grasshopper - Array Mean
+```javascript
+let findAverage = function(nums){
+  return nums.reduce((a, b) => a + b, 0) / nums.length;
+}
+```
+* task 91
 * 
 
 
