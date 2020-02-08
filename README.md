@@ -897,6 +897,11 @@ let findAverage = function(nums){
 }
 ```
 * task 91
+* Grasshopper - Array Mean
+```javascript
+const findAverage = nums => nums.reduce((a,el) => a + el) / nums.length;
+```
+* task 92
 * 
 
 
