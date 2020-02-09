@@ -914,8 +914,16 @@ return res;
 }
 ```
 * task 93
+* Grasshopper - Array Mean
+```javascript
+function findAverage(nums) {
+  return nums.reduce(function(a,b) {
+    return a+b;
+  }) / nums.length;
+}
+```
+* task 94
 * 
-
 
 
 
