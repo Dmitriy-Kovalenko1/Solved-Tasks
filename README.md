@@ -923,6 +923,14 @@ function findAverage(nums) {
 }
 ```
 * task 94
+* My head is at the wrong end!
+```javascript
+function fixTheMeerkat(arr) {
+   let [a,b,c] = arr;
+   return [c,b,a];
+}
+```
+* task 95
 * 
 
 
