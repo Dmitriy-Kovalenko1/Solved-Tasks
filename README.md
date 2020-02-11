@@ -979,6 +979,13 @@ function arrayPlusArray(arr1, arr2) {
 }
 ```
 * task 101
+* SpeedCode #2 - Array Madness
+```javascript
+function arrayMadness(a, b) {
+  return a.reduce((prev, curr) => (prev + curr ** 2), 0) > b.reduce((prev, curr) => (prev + curr ** 3), 0);
+}
+```
+* task 102
 * 
 
 
