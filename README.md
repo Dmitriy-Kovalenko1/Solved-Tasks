@@ -954,8 +954,14 @@ function grow(x){
 const grow = x => x.reduce((m,n)=>m*n, 1);
 ```
 * task 98
+* Array plus array
+```javascript
+function arrayPlusArray(arr1, arr2) {
+  return arr1.concat(arr2).reduce((acc, cur) => acc + cur);
+}
+```
+* task 99
 * 
-
 
 
 
