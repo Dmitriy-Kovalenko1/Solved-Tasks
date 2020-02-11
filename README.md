@@ -991,6 +991,13 @@ function arrayMadness(a, b) {
 const arrayMadness=(a,b)=> a.reduce((acc,curr)=> acc + Math.pow(curr,2),0) >=b.reduce((acc,curr)=> acc + Math.pow(curr,3),0)
 ```
 * task 103
+* Enumerable Magic #25 - Take the First N Elements
+```javascript
+function take(arr, n) {
+  return arr.slice(0, n);
+}
+```
+* task 104
 * 
 
 
