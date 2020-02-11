@@ -949,8 +949,12 @@ function grow(x){
 }
 ```
 * task 97
+* Beginner - Reduce but Grow
+```javascript
+const grow = x => x.reduce((m,n)=>m*n, 1);
+```
+* task 98
 * 
-
 
 
 
