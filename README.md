@@ -1027,6 +1027,15 @@ function any(arr, fun){
 }
 ```
 * task 108
+* Enumerable Magic #2 - True for Any?
+```javascript
+function any(arr, fun){
+  return arr.some(function(element){
+    return fun(element);
+  });
+}
+```
+* task 109
 * 
 
 
