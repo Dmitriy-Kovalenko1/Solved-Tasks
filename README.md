@@ -986,8 +986,12 @@ function arrayMadness(a, b) {
 }
 ```
 * task 102
+* SpeedCode #2 - Array Madness
+```javascript
+const arrayMadness=(a,b)=> a.reduce((acc,curr)=> acc + Math.pow(curr,2),0) >=b.reduce((acc,curr)=> acc + Math.pow(curr,3),0)
+```
+* task 103
 * 
-
 
 
 
