@@ -1003,8 +1003,14 @@ function take(arr, n) {
 const take = (a, n) => a.slice(0, n);
 ```
 * task 105
+* Enumerable Magic #25 - Take the First N Elements
+```javascript
+function take(arr, n) {
+  return arr.splice(0,n);
+}
+```
+* task 106
 * 
-
 
 
 
