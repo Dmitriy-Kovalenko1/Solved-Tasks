@@ -931,6 +931,17 @@ function fixTheMeerkat(arr) {
 }
 ```
 * task 95
+* Beginner - Reduce but Grow
+```javascript
+const grow = x => {
+  let res = 1;
+  for (let i = 0; i < x.length; i++) {
+    res *= x[i];
+  }
+  return res;
+};
+```
+* task 96
 * 
 
 
