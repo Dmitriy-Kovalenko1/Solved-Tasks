@@ -1010,6 +1010,13 @@ function take(arr, n) {
 }
 ```
 * task 106
+* Enumerable Magic #2 - True for Any?
+```javascript
+function any(arr, fun){
+  return arr.some(fun)
+}
+```
+* task 107
 * 
 
 
