@@ -967,7 +967,18 @@ function arrayPlusArray(arr1, arr2) {
   return arr1.reduce((sum, cur) => sum + cur) + arr2.reduce((sum, cur) => sum + cur);
 }
 ```
-* 100
+* task 100
+* Array plus array
+```javascript
+function arrayPlusArray(arr1, arr2) {
+  let r = 0;
+  for(let i=0; i<arr1.length;i++){
+    r+=arr1[i] + arr2[i];
+  }
+  return r;
+}
+```
+* task 101
 * 
 
 
