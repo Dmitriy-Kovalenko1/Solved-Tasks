@@ -942,6 +942,13 @@ const grow = x => {
 };
 ```
 * task 96
+* Beginner - Reduce but Grow
+```javascript
+function grow(x){
+  return x.reduce((a, b)=> a * b,1);
+}
+```
+* task 97
 * 
 
 
