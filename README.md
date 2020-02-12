@@ -1036,6 +1036,13 @@ function any(arr, fun){
 }
 ```
 * task 109
+* Remove First and Last Character Part Two
+```javascript
+function array(strg){
+    return strg.split(',').slice(1,-1).join(' ') || null
+}
+```
+* task 110
 * 
 
 
