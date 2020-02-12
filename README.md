@@ -1043,6 +1043,15 @@ function array(strg){
 }
 ```
 * task 110
+* Remove First and Last Character Part Two
+```javascript
+function array(arr){
+let a = arr.split(',');
+if (a.length <=2) {return null;}
+return a.slice(1,a.length-1).join(' ');
+}
+```
+* task 111
 * 
 
 
