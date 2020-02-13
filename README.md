@@ -1135,6 +1135,13 @@ let combineNames = function(first, last){
 };
 ```
 * task 120
+* Grasshopper - Debug sayHello
+```javascript
+function sayHello (name) {
+  return 'Hello, ' +  name;
+}
+```
+* task 121
 * 
 
 
