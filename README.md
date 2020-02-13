@@ -1116,6 +1116,13 @@ function greet(name){
 }
 ```
 * task 117
+* Returning Strings
+```javascript
+function greet(name) {
+  return "Hello, " + name + " how are you doing today?";
+}
+```
+* task 118
 * 
 
 
