@@ -1102,6 +1102,13 @@ function greet(name){
 }
 ```
 * task 115
+* Template Strings
+```javascript
+let TempleStrings = function(obj, feature) {
+  return `${obj} are ${feature}`;
+}
+```
+* task 116
 * 
 
 
