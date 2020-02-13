@@ -1109,6 +1109,13 @@ let TempleStrings = function(obj, feature) {
 }
 ```
 * task 116
+* Returning Strings
+```javascript
+function greet(name){
+  return `Hello, ${name} how are you doing today?`;
+}
+```
+* task 117
 * 
 
 
