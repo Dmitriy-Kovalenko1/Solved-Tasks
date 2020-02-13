@@ -1095,6 +1095,13 @@ function greet(name){
 }
 ```
 * task 114
+* Jenny's secret message
+```javascript
+function greet(name){
+  return name === "Johnny" ? "Hello, my love!" : `Hello, ${name}!`;
+}
+```
+* task 115
 * 
 
 
