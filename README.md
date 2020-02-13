@@ -1123,6 +1123,11 @@ function greet(name) {
 }
 ```
 * task 118
+* Grasshopper - Combine strings
+```javascript
+const combineNames = (a, b) => `${a} ${b}`;
+```
+* task 119
 * 
 
 
