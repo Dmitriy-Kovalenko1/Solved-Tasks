@@ -1065,7 +1065,28 @@ return (sum/Object.entries(meet).length <= 5) ? a : b
 }
 ```
 * task 112
-* 
+* The Office I - Outed
+```javascript
+function outed(meet, boss){
+  var sum = 0;
+  var length = 0;
+  for (var person in meet) {
+    if (person === boss) {
+      sum += meet[person];
+    }
+    sum += meet[person];
+    length++;
+  }
+  var total = sum / length;
+  if (total <= 5) {
+    return 'Get Out Now!';
+  } else {
+    return 'Nice Work Champ!';
+  }
+}
+```
+* task 113
+
 
 
 
