@@ -1052,6 +1052,19 @@ return a.slice(1,a.length-1).join(' ');
 }
 ```
 * task 111
+* The Office I - Outed
+```javascript
+function outed(meet, boss){
+let sum = meet[boss];
+let a = 'Get Out Now!';
+let b = 'Nice Work Champ!';
+  for(let key in meet){
+ sum += meet[key];
+}
+return (sum/Object.entries(meet).length <= 5) ? a : b
+}
+```
+* task 112
 * 
 
 
