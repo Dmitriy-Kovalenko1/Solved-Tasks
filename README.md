@@ -1086,7 +1086,16 @@ function outed(meet, boss){
 }
 ```
 * task 113
-
+* Jenny's secret message
+```javascript
+function greet(name){  
+  if(name === "Johnny")
+    return "Hello, my love!";
+  return "Hello, " + name + "!";
+}
+```
+* task 114
+* 
 
 
 
