@@ -1147,6 +1147,13 @@ function sayHello (name) {
 getChar = c => String.fromCharCode(c);
 ```
 * task 122
+* get character from ASCII Value
+```javascript
+function getChar(c) {
+  return String.fromCharCode(c)
+}
+```
+* task 123
 * 
 
 
