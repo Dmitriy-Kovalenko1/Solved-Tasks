@@ -1161,6 +1161,16 @@ function validatePIN(pin) {
 }
 ```
 * task 124
+* Regex validate PIN code
+```javascript
+function validatePIN (pin) {
+  if((pin.length==4||pin.length==6) && pin >= 0 && (pin < "999999" && pin >= "0") )
+    return true ;
+  else 
+    return false ;
+ }
+```
+* task 125
 * 
 
 
