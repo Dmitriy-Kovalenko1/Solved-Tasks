@@ -1154,6 +1154,13 @@ function getChar(c) {
 }
 ```
 * task 123
+* Regex validate PIN code
+```javascript
+function validatePIN(pin) {
+  return /^(\d{4}|\d{6})$/.test(pin)
+}
+```
+* task 124
 * 
 
 
