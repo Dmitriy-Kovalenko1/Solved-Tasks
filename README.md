@@ -1171,6 +1171,19 @@ function validatePIN (pin) {
  }
 ```
 * task 125
+* Regex validate PIN code
+```javascript
+function validatePIN (pin) {
+var array = pin.split("")
+if ((array.length === 4 || array.length === 6) && pin % 1 === 0) {
+    return true
+  }
+ else {
+   return false
+ }
+}
+```
+* task 126
 * 
 
 
