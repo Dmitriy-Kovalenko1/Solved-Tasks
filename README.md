@@ -1184,7 +1184,13 @@ if ((array.length === 4 || array.length === 6) && pin % 1 === 0) {
 }
 ```
 * task 126
-* 
+* Regex validate PIN code
+```javascript
+function validatePIN (pin) {
+  return /^\d{4}(\d{2})?$/.test(pin);
+}
+```
+
 
 
 
