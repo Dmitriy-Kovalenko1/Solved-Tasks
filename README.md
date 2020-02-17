@@ -1207,6 +1207,17 @@ let moveZeros = function (arr) {
   return result;
 }
 ```
+* task 128
+* Not very secure
+```javascript
+const alphaNumeric = new RegExp("^[a-zA-Z0-9]+$");
+
+function alphanumeric(s) {  
+  return alphaNumeric.test(s);
+}
+```
+* task 129
+* 
 
 
 
