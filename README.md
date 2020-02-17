@@ -1217,6 +1217,27 @@ function alphanumeric(s) {
 }
 ```
 * task 129
+* TASK FROM VISA
+```javascript
+function commonSubstring(a, b) {
+  let flag = 0;
+    for(let i = 0; i < a.length; i++){
+      for(let j = 0; j < a[i].length; j++){
+        if(b[i].includes(a[i][j])) {
+          flag = 1;
+          console.log('YES');
+          break ;
+           }
+        }
+      if(flag !== 1) 
+      console.log('NO');
+      flag = 0;
+      }
+
+}
+console.log(commonSubstring(['hello','dfe'],['hi', 'abc']));
+```
+* task 130
 * 
 
 
