@@ -1190,6 +1190,23 @@ function validatePIN (pin) {
   return /^\d{4}(\d{2})?$/.test(pin);
 }
 ```
+* task 127
+* Moving Zeros To The End
+```javascript
+let moveZeros = function (arr) {
+  let result = [];
+
+  for (let i = arr.length - 1; i >= 0; i--) {
+    if (arr[i] === 0) {
+      result.push(arr[i]);
+    } else {
+      result.unshift(arr[i]);
+    }
+  }
+  
+  return result;
+}
+```
 
 
 
