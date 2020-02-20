@@ -1238,6 +1238,26 @@ function commonSubstring(a, b) {
 console.log(commonSubstring(['hello','dfe'],['hi', 'abc']));
 ```
 * task 130
+* Simple Fun #74: Growing Plant
+```javascript
+function growingPlant(upSpeed, downSpeed, desiredHeight) {
+  let days = 0;
+  let height = 0;
+  for (let i = 0; height < desiredHeight; i++) {
+  height += upSpeed;
+  if (height >= desiredHeight) {
+  days++;
+  }
+  else {
+  height -= downSpeed;
+  days++;
+  }
+
+}
+return days;
+}
+```
+* task 131
 * 
 
 
