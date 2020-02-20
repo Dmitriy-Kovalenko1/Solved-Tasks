@@ -1282,7 +1282,18 @@ function tripleTrouble(one, two, three){
 }
 ```
 * task 133
-
+* Unique in Order
+```javascript
+var uniqueInOrder=function(str){
+  let arr = [];
+  if (!str) return []; else arr.push(str[0]);
+  for(let i = 1; i < str.length; i++){
+    if (str[i]!== str[i-1]) arr.push(str[i]);
+  }
+  return arr;
+}
+```
+* task 134
 
 
 
