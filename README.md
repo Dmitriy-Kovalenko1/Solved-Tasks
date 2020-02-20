@@ -1258,7 +1258,19 @@ return days;
 }
 ```
 * task 131
-* 
+* Growing Plant
+```javascript
+const growingPlant = (us, ds, dh) => {
+ let h = us;
+ let res = 1
+ while (h<dh) {
+  h += (us-ds);
+  res++
+ }
+ return res;
+}
+```
+* task 132
 
 
 
