@@ -1271,6 +1271,18 @@ const growingPlant = (us, ds, dh) => {
 }
 ```
 * task 132
+* Triple Trouble
+```javascript
+function tripleTrouble(one, two, three){
+  let myStr = '';
+  for (let i = 0; i < one.length; i++){   
+    myStr = myStr+ one[i]+ two[i]+ three[i];
+  }
+  return myStr;
+}
+```
+* task 133
+
 
 
 
