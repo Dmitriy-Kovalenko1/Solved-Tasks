@@ -1294,6 +1294,19 @@ var uniqueInOrder=function(str){
 }
 ```
 * task 134
+* HACKERRANK.COM        TASK   Staircase 
+```javascript
+function staircase(n){
+let str = '';
+for(let i = 0; i < n; i++){
+str = str + ''.repeat(n - i - 1) + '#'.repeat(i + 1) + '\n';
+}
+str = str + '#'.repeat(n);
+console.log(str);
+}
+```
+* task 135
+
 
 
 
