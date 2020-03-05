@@ -1336,6 +1336,21 @@ else return false;
 }
 ```
 * task 137
+* Mispelled Word
+```javascript
+var mispelled = function(word1, word2)
+{
+  let count = 0
+  let l = Math.max(word1.length, word2.length);
+    for (let i = 0; i < l; i++) {
+      if (word1[i] !== word2[i] && word1[i] !== word2[i-1] && word1[i] !== word2[i+1]) {
+      count++
+      }
+    }
+  return count < 2;
+}
+```
+* task 138
 
 
 
