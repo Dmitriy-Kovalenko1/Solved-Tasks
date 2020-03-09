@@ -1351,6 +1351,18 @@ var mispelled = function(word1, word2)
 }
 ```
 * task 138
+* Unique in Order
+```javascript
+let uniqueInOrder=function(iterable){
+  let res = [];
+  for (let i = 0; i < iterable.length; i++) {
+    if (iterable[i] != iterable[i+1]) res.push(iterable[i]);
+  }
+  return res;
+}
+```
+* task 139
+
 
 
 
