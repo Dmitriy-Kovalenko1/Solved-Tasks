@@ -1362,7 +1362,17 @@ let uniqueInOrder=function(iterable){
 }
 ```
 * task 139
-
+* N-th Fibonacci
+```javascript
+function nthFibo(n) {
+  let arr = [0, 1];
+  for(let i = 2; i <= n; i++){
+    arr[i] = arr[ i - 1] + arr[i - 2]
+    }
+    return arr[n - 1];
+}
+```
+* task 140
 
 
 
