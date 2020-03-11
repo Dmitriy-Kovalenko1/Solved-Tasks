@@ -1379,6 +1379,14 @@ function toFreud(string) {
 return (string)?string.split(" ").map(el => 'sex').join(" "): "";
 }
 ```
+* task 141
+* Friends
+```javascript
+function friends(n){
+  return n > 2 ?  1 + friends(n/2) : 0;
+}
+```
+* task 142
 
 
 
