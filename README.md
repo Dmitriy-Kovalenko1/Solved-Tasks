@@ -1373,6 +1373,12 @@ function nthFibo(n) {
 }
 ```
 * task 140
+* Freudian translator
+```javascript
+function toFreud(string) {
+return (string)?string.split(" ").map(el => 'sex').join(" "): "";
+}
+```
 
 
 
