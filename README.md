@@ -1396,8 +1396,14 @@ function friends(n){
 }
 ```
 * task 143
-*
-
+* Friends
+```javascript
+function friends(n){
+if(n<=2){return 0}
+return Math.floor(Math.log2(n-1))
+}
+```
+* task 144
 
 
 
