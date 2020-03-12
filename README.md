@@ -1387,7 +1387,16 @@ function friends(n){
 }
 ```
 * task 142
-
+* Friends
+```javascript
+function friends(n){
+  let i = 1;
+  while(Math.pow(2, i) < n) i++
+  return i - 1;
+}
+```
+* task 143
+*
 
 
 
