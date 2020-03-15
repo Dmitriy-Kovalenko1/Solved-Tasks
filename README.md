@@ -1404,6 +1404,14 @@ return Math.floor(Math.log2(n-1))
 }
 ```
 * task 144
+* Friends
+```javascript
+function friends(n){
+  if (n) return (n-1).toString(2).length - 1;
+  return 0;
+}
+```
+* task 145
 
 
 
