@@ -1412,6 +1412,10 @@ function friends(n){
 }
 ```
 * task 145
+* Friends
+```javascript
+const friends = n => n <= 2 ? 0 : Math.floor(Math.log2(n - 1));
+```
 
 
 
