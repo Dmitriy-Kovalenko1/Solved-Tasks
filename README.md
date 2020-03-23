@@ -1428,6 +1428,18 @@ function validate(pass) {
   return long && lower && upper && num && sign;
 }
 ```
+* task 147  
+* Regex Password Validation
+```javascript
+function validate(pass) {
+  let long = pass.length >= 6;
+  let lower = !!pass.match(/[a-z]/g);
+  let upper = !!pass.match(/[A-Z]/g);
+  let num = !!pass.match(/[0-9]/g);
+  let sign = !pass.match(/\W/g);
+  return long && lower && upper && num && sign;
+}
+```
 
 
 
