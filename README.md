@@ -1472,7 +1472,12 @@ else{
  for( let  i = 0; i < word1.length; i++){
    if( word1[i] !== word2[i]) count++;
  }
+ if(count > 1) return false;
+ else return true;
+}
+}
 ```
+
 
     
 
