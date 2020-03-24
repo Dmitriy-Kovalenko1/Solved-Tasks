@@ -1457,6 +1457,22 @@ var mispelled = function(word1, word2)
   return num === 1;
 } 
 ```
+* task 149
+* Mispelled word
+```javascript
+var mispelled = function(word1, word2){
+let count = 0;
+let l1 = word1.length;
+let l2 = word2.length;
+if( Math.abs(l1 -l2) > 1) return false;
+if( Math.abs(l1 - l2) === 1){
+ return (word1.includes(word2) || word2.includes(word1));
+}
+else{
+ for( let  i = 0; i < word1.length; i++){
+   if( word1[i] !== word2[i]) count++;
+ }
+```
 
     
 
