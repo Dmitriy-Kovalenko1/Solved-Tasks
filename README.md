@@ -1477,7 +1477,20 @@ else{
 }
 }
 ```
-  
+* task 150
+* Numbers to Objects
+```javascript
+function numObj(s) {
+  let res = [];
+  for (let i = 0; i < s.length; i++) {
+  const obj = {};
+  obj[s[i]] = String.fromCodePoint(s[i])
+  res.push(obj)
+  }
+  return res;
+}
+```
+
 
     
 
