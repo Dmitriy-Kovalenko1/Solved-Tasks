@@ -1476,9 +1476,11 @@ else{
  else return true;
 }
 }
-```
+````
 * task 150
 * Numbers to Objects
+```javascript
+Numbers to Objects
 ```javascript
 function numObj(s) {
   let res = [];
@@ -1490,9 +1492,6 @@ function numObj(s) {
   return res;
 }
 ```
-
-
-    
 
 
 
