@@ -1503,6 +1503,7 @@ function nthFibo(n) {
     return arr[n - 1];
 }
 ```
+* task 151
 
 
 
