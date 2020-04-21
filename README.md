@@ -1522,7 +1522,7 @@ return word2.includes(word1);
 else return false;
 }
 ```
-
+* task 152
 
 
 
