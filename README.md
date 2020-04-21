@@ -1503,7 +1503,7 @@ function nthFibo(n) {
     return arr[n - 1];
 }
 ```
-* task 151
+* task 152
 * Mispelled word
 ```javascript
 function  mispelled (word1, word2) {
@@ -1522,7 +1522,7 @@ return word2.includes(word1);
 else return false;
 }
 ```
-* task 152
+* task 153
 
 
 
