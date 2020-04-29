@@ -1535,7 +1535,19 @@ var uniqueInOrder=function(str){
 }
 ```
 * task 154
+* Java Abbreviate a Two Word Name
+```javascript
+public class AbbreviateTwoWords {
 
+  public static String abbrevName(String name) {
+   name = name.toUpperCase();
+   char fio = name.charAt(0);
+    int space = name.indexOf(" ");
+    char next = name.charAt(space + 1);
+    return fio + "." + next;
+  }
+}
+```
 
 
 
