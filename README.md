@@ -1571,6 +1571,7 @@ function stairs(n) {
   return str;  
 }
 ```
+* task 156
 
 
 
