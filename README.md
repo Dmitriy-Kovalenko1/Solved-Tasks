@@ -1572,7 +1572,7 @@ function stairs(n) {
 }
 ```
 * task 156
-* 
+*   
 
 
 
