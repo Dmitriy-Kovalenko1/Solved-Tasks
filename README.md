@@ -1572,7 +1572,12 @@ function stairs(n) {
 }
 ```
 * task 156
-*   
+* Find variable which breaks strict comparison!
+```javascript
+function findStrangeValue() {
+ return NaN;
+}
+```
 
 
 
