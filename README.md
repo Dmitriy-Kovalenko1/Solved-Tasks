@@ -1577,7 +1577,8 @@ function stairs(n) {
 function findStrangeValue() {
  return NaN;
 }
-```
+``` 
+* task 157
 
 
 
