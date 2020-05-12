@@ -1578,8 +1578,8 @@ function findStrangeValue() {
  return NaN;
 }
 ``` 
-* task 157
-* 
+* task 157   
+*  
 
 
 
