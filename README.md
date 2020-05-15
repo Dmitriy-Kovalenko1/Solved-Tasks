@@ -1579,7 +1579,7 @@ function findStrangeValue() {
 }
 ``` 
 * task 157     
-*   
+*       
 
 
 
