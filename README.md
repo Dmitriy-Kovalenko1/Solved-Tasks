@@ -1576,7 +1576,7 @@ function stairs(n) {
 ```javascript
 function findStrangeValue() {
  return NaN;
-}
+}   
 ``` 
 * task 157     
 * Walk-up Stairs  
