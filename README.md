@@ -1600,7 +1600,8 @@ function stairs(n) {
   }
   return str;  
 }
-```  
+``` 
+ 
 
  
 
