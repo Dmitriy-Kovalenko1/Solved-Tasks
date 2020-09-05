@@ -1599,9 +1599,7 @@ function stairs(n) {
     str = (i !== n) ? str + '\n' : str;
   }
   return str;  
-}
-``` 
- 
+} 
 
  
 
